@@ -1,0 +1,16 @@
+{
+  "name": "mothcalendar",
+  "version": "1.0.0",
+  "description": "A calendar application built with Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["calendar", "electron", "desktop"],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.3.0"
+  }
+}
