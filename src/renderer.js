@@ -1,3 +1,5 @@
+let lives = 3;
+
 upButton = document.getElementById("up");
 downButton = document.getElementById("down");
 leftButton = document.getElementById("left");
@@ -24,3 +26,5 @@ rightButton.addEventListener("click", () => {
     mothagotchi.style.left = (parseInt(mothagotchi.style.left) || 0) + 10 + "px";
     console.log("Button clicked!");
 });
+
+console.log(`it has ${lives} lives`);
